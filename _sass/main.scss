@@ -1,0 +1,139 @@
+body {	margin: 0 15px;
+	background: url('/assets/images/backp.jpg') repeat fixed;
+	font-family: Arial, arial, Sans-serif;
+}
+
+
+#main-content {
+	margin: 8px;
+}
+
+
+/* Styling of the navigation menu */
+
+#access {
+	background: #333;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+div.menu {
+	font-size: 20px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+div.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.menu li {
+	float: left;
+	position: relative;
+}
+#access a {
+	color: #aaa;
+	display: block;
+	line-height: 38px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+#access ul ul {
+	margin-left: 0px;
+	padding: 0;
+	display: none;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	float: left;
+	width: 180px;
+	z-index: 99999;
+}
+#access ul ul li {
+	min-width: 180px;
+}
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	background: #333;
+	line-height: 1em;
+	padding: 10px;
+	width: 160px;
+	height: auto;
+}
+#access li:hover > a,
+#access ul ul :hover > a {
+	background: #333;
+	color: #fff;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+
+* html #access ul li a:hover {
+	color: #fff;
+}
+
+
+/* table styling */
+
+table.topinfo {
+	width:100%;
+	border-bottom-width:1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+
+
+table.topinfo td {
+	padding: 1px;
+}
+
+table.contentholder {
+	border-width: 1px;
+	border-style: none;
+	border-color: gray;
+	border-collapse: collapse;
+}
+table.contentholder th {
+	width: 300px;
+	text-align: left;
+	border-width: 1px;
+	padding: 8px;
+	border-style: dotted;
+	border-color: gray;
+}
+table.contentholder td {
+	text-align: left;
+	vertical-align: top;
+	border-width: 1px;
+	padding: 8px;
+	border-style: dotted;
+	border-color: gray;
+}
+
+
+#sumtable td{
+	width: 2.5em;
+	text-align: center;
+}
+		
+
+#sumtable, #sumtable td{
+			border:1px solid #000;
+		}
+		table#sumtable tr:nth-child(even){
+			background-color:#ccddff;
+		}
+		table#sumtable tr:nth-child(odd){
+			background-color:#ffff99;
+		}
+
+
