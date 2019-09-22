@@ -1,0 +1,153 @@
+---
+---
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Pentyrch Chess</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="SHORTCUT ICON" href="/favicon.ico"/>
+<link rel="ICON" type="image/vnd.microsoft.icon" href="/favicon.ico"/>
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+
+</head>
+
+
+<body style=" margin:0px; background-color: rgb(210,210,210); font-family: Arial, arial, Sans-serif;">
+
+{% include header.html %}
+
+<table border="0" cellpadding="1" cellspacing="2">
+  <tbody>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom"><div align="center"><font face="Arial, Helvetica, sans-serif" size="+3"><strong>Club 
+          Tribute to Geof Tyrrell</strong></font></div></td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom"><strong>CLWB GWYLLBWYLL PENTYRCH CHESS CLUB</strong> 
+      </td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">The members of Pentyrch Chess Club, along with many 
+        others in the village, were deeply shocked and saddened by the death on 
+        April 5th 2010 at the early age of 63 of the founder of the club and our 
+        club captain Geof Tyrrell. He is pictured (right), along with Pentyrch 
+        'A' team captain Mike Maguire, at the club's 25th anniversary event at 
+        the Kings Arms in September 2006.</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;</td>
+      <td valign="bottom"><p> <img src="photos/Chess - 001.jpg" width="450" hspace="3" vspace="3" border="0" usemap="#Map"> 
+          <map name="Map">
+            <area shape="circle" coords="318,106,17"title="Geof Tyrrell"/>
+            <area shape="circle" coords="244,95,16"title="Mike Maguire"/>
+          </map>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">Having played chess for the Whitchurch High and Cathays 
+        school teams respectively in the early 1960s, Geof and I met up again 
+        in 1980 as neighbours in Maes-y-Sarn, Pentyrch. The first thing he asked 
+        was whether I was still playing chess and I had to say "no, not for 15 
+        years or more". The best part of a year later, he gathered some people 
+        from the village at his home to test their strength at chess and then 
+        launched the club in September 1981 in the lowest division of the East 
+        Glamorgan Chess League. We started out playing in St Catwg's Church Hall 
+        but after a couple of years we moved to the Kings Arms and we've been 
+        there ever since.</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">In Mike Maguire's words, we shall always remember him 
+        as full of life, great company, warm, friendly and enthusiastic. He had 
+        a great wealth of interesting stories and was a real character in Welsh 
+        chess, for which he did a huge amount earlier in his career. In the 1970's 
+        and early 1980's he had been a non-playing captain of the Welsh Chess 
+        Team at several Olympiads and European events and for some years until 
+        2008 was President of the Welsh Chess Union. A fulsome tribute from his 
+        great friend, Howard Williams (former top board player in the Welsh team), 
+        is on the Welsh Chess Union website at</td>
+    </tr>
+    <tr> 
+      <td align="center"><font color="#0000ff">&nbsp;</font></td>
+      <td valign="bottom">&nbsp; </td>
+    </tr>
+    <tr> 
+      <td>
+      <td valign="bottom"><a href="http://www.welshchessunion.org.uk/tribute_to_geoffery_tyrrell.html">Welsh 
+        Chess Union - Tribute to Geof Tyrrell </a></td>
+      >&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">Geof's presence at the club will be missed enormously.</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">To continue in the spirit in which he instigated the 
+        chess club in the village, we are always more than happy to welcome new 
+        members. Anyone wishing to join should contact me on (029) 2089 1402. 
+        Our website is at www.pentyrchchess.co.uk .</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom"><p>&nbsp; </p></td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">Vivian Martin</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">Club Secretary</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="center">&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+</body></html>

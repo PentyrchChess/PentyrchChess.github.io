@@ -1,0 +1,22 @@
+---
+---
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Pentyrch Chess</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="SHORTCUT ICON" href="/favicon.ico"/>
+<link rel="ICON" type="image/vnd.microsoft.icon" href="/favicon.ico"/>
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+
+</head>
+
+
+<body style="background-color: rgb(210,210,210); font-family: Arial, arial, Sans-serif;">
+
+{% include header.html %}
+
+<img src="/photos/misc/m-j-wood.jpg" style="margin-top:15px; max-width: 60%">
+</body>
+</html>
