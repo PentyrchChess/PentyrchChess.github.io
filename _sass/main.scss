@@ -8,6 +8,24 @@ body {	margin: 0 15px;
 	margin: 8px;
 }
 
+.welcome {
+	width: 100%;
+	display: flex;
+	padding: 10px 0;
+	align-items: stretch;
+}
+.welcome-item {
+	width: 200px;
+	background: hsla(0,0,100,0.5);
+	padding: 0 5px;
+	margin: 0 5px;
+	flex-grow: 1;
+}
+
+.welcome-item.advert {
+	text-align: center;
+	background: rgba(130, 148, 4, 0.3);
+}
 
 /* Styling of the navigation menu */
 
@@ -84,42 +102,6 @@ div.menu li {
 
 /* table styling */
 
-table.topinfo {
-	width:100%;
-	border-bottom-width:1px;
-	border-bottom-style: solid;
-	border-bottom-color: #000;
-}
-
-
-table.topinfo td {
-	padding: 1px;
-}
-
-table.contentholder {
-	border-width: 1px;
-	border-style: none;
-	border-color: gray;
-	border-collapse: collapse;
-}
-table.contentholder th {
-	width: 300px;
-	text-align: left;
-	border-width: 1px;
-	padding: 8px;
-	border-style: dotted;
-	border-color: gray;
-}
-table.contentholder td {
-	text-align: left;
-	vertical-align: top;
-	border-width: 1px;
-	padding: 8px;
-	border-style: dotted;
-	border-color: gray;
-}
-
-
 #sumtable td{
 	width: 2.5em;
 	text-align: center;
@@ -136,4 +118,31 @@ table.contentholder td {
 			background-color:#ffff99;
 		}
 
+
+.fixtures, .fixtures th, .fixtures td {
+	border: 1px solid #aaa;
+	border-collapse: collapse;
+	padding: 5px;
+}
+.team-a{
+	background-color: #FF5F3B;
+}
+.team-b{
+	background-color: #FFF082;
+}
+.team-c{
+	background-color: #A4EB73;
+}
+.fixtures .all-teams {
+	font-weight: bold;
+}
+.team-info {
+	width: 30%;
+	min-width: 200px;
+}
+.team-info-container {
+	padding-bottom: 20px;
+	display: flex;
+	background: hsla(0,0,100,0.5);
+}
 

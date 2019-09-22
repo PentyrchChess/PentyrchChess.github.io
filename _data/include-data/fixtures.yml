@@ -1,0 +1,23 @@
+teams:
+  - 
+    name : PENTYRCH AMATEURS
+    class: team-a
+  - 
+    name : BRIGÂD PENTYRCH
+    class: team-b
+  -
+    name : PENTYRCH CARDINALS
+    class: team-c
+  -
+    name : PENTYRCH
+    class: all-teams
+  -
+    name : PENTYRCH CLUB EVENT
+    class: all-teams
+locations:
+  - 
+    name: A
+    class: away
+  -
+    name: H
+    class: home

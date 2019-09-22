@@ -1,0 +1,29 @@
+
+<table class="fixtures">
+
+    <tr><th>TEAM</th><th>Rd</th><th>DATE</th><th>H/A</th><th>OPPONENTS</th></tr>
+    {% for fix in site.data.fixtures %}
+
+        {% assign class = "" %}
+        {% for t in site.data.include-data.fixtures.teams %}
+            {% if fix.team == t.name %}
+                {% assign class = t.class %}
+            {% endif %}
+        {% endfor %}
+        {% for l in site.data.include-data.fixtures.locations %}
+            {% if fix.location == l.name %}
+                {% assign class = class | append: " " | append: l.class %}
+            {% endif %}
+        {% endfor %}
+
+        <tr class="{{ class }}">
+            <td>{{ fix.team }}</td>
+            <td>{{ fix.round }}</td>
+            <td>{{ fix.date }}</td>
+            <td>{{ fix.location }}</td>
+            <td>{{ fix.opponent }}</td>
+        </tr>
+    {% endfor %}
+ 
+</table>
+
