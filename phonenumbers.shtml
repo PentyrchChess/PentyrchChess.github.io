@@ -1,0 +1,53 @@
+---
+---
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Pentyrch Chess</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="SHORTCUT ICON" href="/favicon.ico"/>
+<link rel="ICON" type="image/vnd.microsoft.icon" href="/favicon.ico"/>
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+
+</head>
+
+
+<body style=" margin:0px; background-color: rgb(210,210,210); font-family: Arial, arial, Sans-serif;">
+
+{% include header.html %}
+
+<h1> Club Phone Numbers </h1>
+<table border="1" cellpadding="2" cellspacing="6">
+  <tr> 
+    <td width="22">&nbsp;</td>
+    <td width="166">&nbsp;</td>
+    <td width="80">&nbsp;</td>
+    <td width="141"><div align="center"><strong>Home No.</strong></div></td>
+    <td width="141"><div align="center"><strong>Work No.</strong></div></td>
+    <td width="141"><div align="center"><strong>Mobile No.</strong></div></td>
+    <td width="141"><div align="center"><strong>Email</strong></div></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td><strong>1</strong></td>
+    <td><strong>Surname</strong></td>
+    <td><strong>Firstname</strong></td>
+    <td><strong>(029) 20111111</strong></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><strong>firstname.surname@example.com</strong></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+
+</body>
+</html>
