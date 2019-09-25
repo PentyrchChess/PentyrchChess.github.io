@@ -1,0 +1,65 @@
+---
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pentyrch Chess</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <link rel="SHORTCUT ICON" href="/favicon.ico"/>
+        <link rel="ICON" type="image/vnd.microsoft.icon" href="/favicon.ico"/>
+
+        <link rel="stylesheet" href="/assets/css/styles.css">
+
+    </head>
+    <body style="margin:0px;">
+        {% include header.html %}
+
+    
+
+        <div id="main-content" style="padding-top: 5px;">
+            <h1> Club Phone Numbers </h1>
+
+            <form id="password-entry" name="form" action="#">
+                <p> Members' phone numbers are only available to other members. </p>
+                <p> Please enter club password to access </p>
+
+                <p><label for="club-password">Password:</label>
+
+                <br /><input id="club-password" type="password" title="Enter the club password"/>
+                
+                </p>
+
+                <p><input type="submit" name="Submit" value="Sign in" /></p>
+                <p id="error-message" class="errors"></p>
+            </form>
+
+            <div id="mytablecontainer"></div>
+
+        </div>
+
+<script src="/assets/js/phone-numbers.js"></script>
+<script>
+
+    const form = document.getElementById("password-entry");
+    form.onsubmit = revelio;
+
+    function revelio(event){
+
+        event.preventDefault();
+        let password = document.getElementById("club-password").value;
+
+
+        getTableRows(password)
+        .then( rows => appendTable('mytablecontainer', rows))
+        .then(_ => form.parentElement.removeChild(form))
+        .catch( function(error) { 
+            console.log(error);
+            if (error == "PASSWORD")
+                document.getElementById("error-message").innerHTML ="That password was incorrect";
+        });
+    }
+
+
+</script>
+</body>
+</html>

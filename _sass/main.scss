@@ -24,9 +24,12 @@ body {	margin: 0 15px;
 
 .welcome-item.advert {
 	text-align: center;
-	background: rgba(130, 148, 4, 0.3);
+	background: hsla(60, 100, 80, 0.8);
 }
 
+.errors {
+	color: #f00;
+}
 /* Styling of the navigation menu */
 
 #access {
@@ -119,7 +122,8 @@ div.menu li {
 		}
 
 
-.fixtures, .fixtures th, .fixtures td {
+.fixtures, .fixtures th, .fixtures td,
+.phone-numbers, .phone-numbers th, .phone-numbers td {
 	border: 1px solid #aaa;
 	border-collapse: collapse;
 	padding: 5px;

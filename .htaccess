@@ -1,2 +1,0 @@
-RewriteEngine on
-RewriteRule ^phonenumbers\.shtml$ phonenumbers.php
