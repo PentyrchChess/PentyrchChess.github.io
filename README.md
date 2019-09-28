@@ -8,7 +8,11 @@ To propose a change to one of the pages, browse to the relevant file and click t
 Please note that you'll need to set up a github.com account in order to do so.
 
 ### Quick links for editing
-**Most pages** can be found here:
+
+**Top Menu Navigation Links** can be found here:
+[/_data/menu-items.yml](https://github.com/PentyrchChess/PentyrchChess.github.io/tree/master/_data)
+
+**Most of the main pages** can be found here:
 [/_pages/](https://github.com/PentyrchChess/PentyrchChess.github.io/tree/master/_pages)
 
 **Fixtures Table** on the home page is generated from this CSV file:

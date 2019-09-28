@@ -5,47 +5,26 @@
 <div id="access">
   <div class="menu"> 
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href=#>About</a>
-        <ul>
-          <li><a href="/members.html">Members</a></li>
-          <li><a href="/club_history.html">History</a></li>
-        </ul>
-      </li>
-      <li><a href=#>Results</a> 
-        <ul>
-          <li><a href="/results/C_R18.html">Pentyrch 'C'</a></li>
-          <li><a href="/results/D_R18.html">Pentyrch 'D'</a></li>
-          <li><a href="/results/club_results.html">Club Championships</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Photos</a> 
-        <ul>
-          <li><a href="/photos/bristol.html">Bristol Photos</a></li>
-          <li><a href="/photos/pentyrch_25th.html">Club 25th Anniversary</a></li>
-          <li><a href="/photos/handicap-2007.html">Handicap 2007</a></li>
-          <li><a href="/photos/schools.html">Schools Chess</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Updates</a> 
-        <ul>
-          <li><a href="/updates.html">Match Rule Changes</a></li>
-        </ul>
-      </li>
-      <li><a href="/archive.html">Archive</a></li>
-      <li><a href="#">Links</a> 
-        <ul>
-          <li><a href="/chess-archives/welsh-chess-union.html">Welsh Chess Archives</a></li>
-          <li><a href="http://www.eastglamchessratings.org.uk">Live Rating Centre</a></li>
-          <li><a href="http://www.welshchessunion.uk">Welsh Chess Union</a></li>
-          <li><a href="https://egca.yolasite.com">East Glam. Chess</a></li>
-          <li><a href="http://maps.google.co.uk/maps?q=N51.487115,+W2.506299&hl=en&ll=51.487008,-2.506557&spn=0.007068,0.019634&sll=51.487008,-2.506557&sspn=0.007122,0.019634&vpsrc=0&t=h&z=16&layer=c&cbll=51.487113,-2.50629&panoid=ep4MziO_IGSu-l938knVcw&cbp=12,216.99,,0,0">Downend 
-            & Fishponds Chess Club</a></li>
-          <li><a href="http://www.timeanddate.com/calendar/?year=1994&country=9">Calendar 
-            (All Years)</a></li>
-        </ul>
-      </li>
-    </ul>
-</div>
+      {% for L1 in site.data.menu-items %}
+      <li> 
+        {% for L1-item in L1 %}
+          {% if forloop.index == 1 %}
+          <a href="{{ L1-item[1] }}">{{ L1-item[0]}}</a>
+          {% endif %}
 
+          {% if forloop.index == 2 %}
+            <ul>
+                {% for L2 in L1-item[1] %}
+                  {% for L2-item in L2 %}
+                  <a href="{{ L2-item[1] }}">{{ L2-item[0]}}</a>
+                  {% endfor %}
+                {% endfor%}
+            </ul>
+          {% endif %}
+        {% endfor %}
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
 </div>
