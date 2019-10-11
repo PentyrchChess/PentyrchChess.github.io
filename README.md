@@ -10,18 +10,18 @@ Please note that you'll need to set up a github.com account in order to do so.
 ### Quick links for editing
 
 **Top Menu Navigation Links** can be found here:
-[/_data/menu-items.yml](https://github.com/PentyrchChess/PentyrchChess.github.io/tree/master/_data/menu-items.yml)
+[/_data/menu-items.yml](https://github.com/PentyrchChess/PentyrchChess.github.io/edit/master/_data/menu-items.yml)
 
 **Most of the main pages** can be found here:
 [/_pages/](https://github.com/PentyrchChess/PentyrchChess.github.io/tree/master/_pages)
 
 **Fixtures Table** on the home page is generated from this CSV file:
-[/_data/fixtures.csv](https://github.com/PentyrchChess/PentyrchChess.github.io/blob/master/_data/fixtures.csv)
+[/_data/fixtures.csv](https://github.com/PentyrchChess/PentyrchChess.github.io/edit/master/_data/fixtures.csv)
 
 **Latest Results** are generated from these files:  
- - Amateurs: [/_results/A_R19.md](https://github.com/PentyrchChess/PentyrchChess.github.io/tree/master/_results/A_R19.md)
- - Brigâd: [/_results/B_R19.md](https://github.com/PentyrchChess/PentyrchChess.github.io/tree/master/_results/B_R19.md)
- - Cardinals: [/_results/C_R19.md](https://github.com/PentyrchChess/PentyrchChess.github.io/tree/master/_results/C_R19.md)
+ - Amateurs: [/_results/A_R19.md](https://github.com/PentyrchChess/PentyrchChess.github.io/edit/master/_results/A_R19.md)
+ - Brigâd: [/_results/B_R19.md](https://github.com/PentyrchChess/PentyrchChess.github.io/edit/master/_results/B_R19.md)
+ - Cardinals: [/_results/C_R19.md](https://github.com/PentyrchChess/PentyrchChess.github.io/edit/master/_results/C_R19.md)
 
 **Archive Results for Bristol:**  
 - "Bristol All Results" is here:
