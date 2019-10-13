@@ -1,4 +1,4 @@
-let namesRegex = /(?:[^\d\s\-]+\s){0,}[^\d\s\-]+/g;
+let namesRegex = /(?:[^\d\s\.\-]+\s){0,}[^\d\.\s\-]+/g;
 let scoresRegex = /(?<!\d)\d(?!\d)\.?\d?/g;
 var dateFormatOptions = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
 
