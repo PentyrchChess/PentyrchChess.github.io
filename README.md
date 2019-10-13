@@ -1,13 +1,8 @@
 # Pentyrch Chess Club Website
 
-Source files for the Pentyrch Chess Club website.
+Source files for the Pentyrch Chess Club website (hosted using [Github Pages](https://jekyllrb.com/docs/github-pages/))
 
-## Contributing
-The site is built with [Jekyll using Github Pages](https://jekyllrb.com/docs/github-pages/).  
-To propose a change to one of the pages, browse to the relevant file and click th pencil icon on the top right.  
-Please note that you'll need to set up a github.com account in order to do so.
-
-### Quick links for editing
+## Quick links for editing
 
 **Top Menu Navigation Links** can be found here:
 [/_data/menu-items.yml](https://github.com/PentyrchChess/PentyrchChess.github.io/edit/master/_data/menu-items.yml)
@@ -29,9 +24,6 @@ Please note that you'll need to set up a github.com account in order to do so.
 
 - "Bristol Summary" is here:
 [/results/summary.html](https://github.com/PentyrchChess/PentyrchChess.github.io/blob/master/results/summary.html)
-
-
-
 
 
 
