@@ -150,3 +150,20 @@ div.menu li {
 	background: hsla(0,0,100,0.5);
 }
 
+.table-format1 * {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.table-format1 {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 10px
+}
+
+.table-format1 .highlight{
+  background-color: salmon;
+  font-weight: bold;
+}
+
